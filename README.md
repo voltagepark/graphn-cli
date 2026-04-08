@@ -20,25 +20,25 @@ Download the binary for your platform:
 **macOS (Apple Silicon):**
 
 ```bash
-curl -sSL https://github.com/voltagepark/graphn-cli/releases/latest/download/graphn-darwin-arm64 -o /usr/local/bin/graphn && chmod +x /usr/local/bin/graphn
+curl -sSL https://github.com/voltagepark/graphn-cli/releases/latest/download/graphn-darwin-arm64 -o graphn && sudo install graphn /usr/local/bin/graphn && rm graphn
 ```
 
 **macOS (Intel):**
 
 ```bash
-curl -sSL https://github.com/voltagepark/graphn-cli/releases/latest/download/graphn-darwin-amd64 -o /usr/local/bin/graphn && chmod +x /usr/local/bin/graphn
+curl -sSL https://github.com/voltagepark/graphn-cli/releases/latest/download/graphn-darwin-amd64 -o graphn && sudo install graphn /usr/local/bin/graphn && rm graphn
 ```
 
 **Linux (x86_64):**
 
 ```bash
-curl -sSL https://github.com/voltagepark/graphn-cli/releases/latest/download/graphn-linux-amd64 -o /usr/local/bin/graphn && chmod +x /usr/local/bin/graphn
+curl -sSL https://github.com/voltagepark/graphn-cli/releases/latest/download/graphn-linux-amd64 -o graphn && sudo install graphn /usr/local/bin/graphn && rm graphn
 ```
 
 **Linux (ARM64):**
 
 ```bash
-curl -sSL https://github.com/voltagepark/graphn-cli/releases/latest/download/graphn-linux-arm64 -o /usr/local/bin/graphn && chmod +x /usr/local/bin/graphn
+curl -sSL https://github.com/voltagepark/graphn-cli/releases/latest/download/graphn-linux-arm64 -o graphn && sudo install graphn /usr/local/bin/graphn && rm graphn
 ```
 
 ### Verify
